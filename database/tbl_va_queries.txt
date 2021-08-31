@@ -1,0 +1,5 @@
+SELECT * FROM tbl_va 
+
+INSERT INTO tbl_va (va_firstname,va_lastname,va_mi,va_email,va_skype,va_started,va_withclient,va_details) VALUES (?, ?, ?, ?, ?, ?, ?, ?) 
+
+ UPDATE tbl_va SET va_firstname = ?, va_lastname = ?, va_mi = ?, va_email = ?, va_skype = ?, va_started = ?, va_withclient = ?, va_details = ? WHERE

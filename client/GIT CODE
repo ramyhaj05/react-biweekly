@@ -1,0 +1,31 @@
+GIT PUSH!
+1. git status
+2. git diff
+3. git add .
+4. git commit -m "Commit Name"
+5. git push origin master
+
+GIT PULL
+1. git log --oneline //pede skip to
+2. git fetch
+3. git pull origin master
+
+GIT PULL NEW
+1. git init
+2. git clone https://github.com/ramyhaj05/react-biweekly.git
+3. composer install
+4. cp .env.example .env
+5. php artisan key:generate
+6. php artisan migrate (if have database)
+7. pas
+
+GIT CLONE
+1. git init
+2. git clone <link>
+
+NEW PUSH 
+git init
+git add .
+git commit -m "first"
+git remote add origin https://github.com/ramyhaj05/bi-weekly-1.git
+git push -u origin master

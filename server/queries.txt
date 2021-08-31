@@ -1,0 +1,4 @@
+--tbl_user QUERIES-- 
+ SELECT * FROM tbl_user
+ INSERT INTO tbl_user (1,2,3,4,asd,asd2,asd3,asd4) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+ UPDATE tbl_user SET 1 = ?, 2 = ?, 3 = ?, 4 = ?, asd = ?, asd2 = ?, asd3 = ?, asd4 = ? WHERE

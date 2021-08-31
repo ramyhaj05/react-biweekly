@@ -1,0 +1,5 @@
+SELECT * FROM tbl_user 
+
+INSERT INTO tbl_user (user_firstname,user_lastname,user_mi,user_email,user_skype,user_started,user_memberof,user_details,user_username,user_password) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+
+ UPDATE tbl_user SET user_firstname = ?, user_lastname = ?, user_mi = ?, user_email = ?, user_skype = ?, user_started = ?, user_memberof = ?, user_details = ?, user_username = ?, user_password = ? WHERE

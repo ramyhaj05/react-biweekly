@@ -1,0 +1,5 @@
+SELECT * FROM tbl_weekly 
+
+INSERT INTO tbl_weekly (weekly_clientID,weekly_userID,weekly_vaID,weekly_datefrom,weekly_dateto,weekly_calls,weekly_texts,weekly_leads,weekly_followup,weekly_remove,weekly_attendace,weekly_totalattendace,weekly_details) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+
+ UPDATE tbl_weekly SET weekly_clientID = ?, weekly_userID = ?, weekly_vaID = ?, weekly_datefrom = ?, weekly_dateto = ?, weekly_calls = ?, weekly_texts = ?, weekly_leads = ?, weekly_followup = ?, weekly_remove = ?, weekly_attendace = ?, weekly_totalattendace = ?, weekly_details = ? WHERE

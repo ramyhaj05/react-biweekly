@@ -1,0 +1,5 @@
+SELECT * FROM tbl_client 
+
+INSERT INTO tbl_client (client_firstname,client_lastname,client_mi,client_email,client_skype,client_started,client_isactive,client_details) VALUES (?, ?, ?, ?, ?, ?, ?, ?) 
+
+ UPDATE tbl_client SET client_firstname = ?, client_lastname = ?, client_mi = ?, client_email = ?, client_skype = ?, client_started = ?, client_isactive = ?, client_details = ? WHERE

@@ -1,0 +1,5 @@
+SELECT * FROM tbl_contract 
+
+INSERT INTO tbl_contract (contact_clientID,contact_userID,contact_vaID,contact_started,contact_isactive,contact_details) VALUES (?, ?, ?, ?, ?, ?) 
+
+ UPDATE tbl_contract SET contact_clientID = ?, contact_userID = ?, contact_vaID = ?, contact_started = ?, contact_isactive = ?, contact_details = ? WHERE
